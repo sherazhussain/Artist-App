@@ -1,0 +1,12 @@
+<div class="header">
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">       
+        <input 
+            type="text" 
+            name="artistName" ngModel
+            class="form-control" 
+            placeholder="Enter the Artist Name"
+           >
+        <button  class="btn btn-primary" type="submit">Submit</button>
+        
+    </form>    
+</div>

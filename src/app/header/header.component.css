@@ -1,0 +1,23 @@
+.header {
+    background: url('../../assets/Background-image.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.form-control {
+    background-color: rgb(219, 215, 215);
+    color: black;
+    border: 0.5px solid rgb(138, 131, 131);
+}
+
+.header form {
+    display: flex;
+}
+
+input {
+    margin-right: 15px;
+}
